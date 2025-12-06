@@ -4,8 +4,9 @@ export default function Home() {
   return (
     <div>
         <div className="flex flex-col justify-center items-center h-screen">
-            <div className="flex items-center ">
-                <div className="text-3xl">Prata Developer</div>
+            <div className="grid grid-cols-3 items-center">
+                <div></div>
+                <div className="text-3xl text-center">Prata Developer</div>
                 <div className="ml-2">
                     <ModeToggle />
                 </div>
