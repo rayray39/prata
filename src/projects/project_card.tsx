@@ -24,7 +24,7 @@ export function ProjectCard({
     const { theme } = useTheme();
 
     return (
-        <div className={theme === "light" ? "light-project-card" : "dark-project-card"}>
+        <div className="project-card">
             <li className="list-none">
                 <div className="flex justify-between items-center">
                     <div className="text-lg">{header.emoji}</div>
@@ -42,11 +42,13 @@ export function ProjectCard({
                     </div>
                 </div>
     
-                <div className="text-lg font-extrabold">{title}</div>
+                <div className="text-lg font-extrabold mb-2">{title}</div>
 
-                <div className="text-sm">{description}</div>
+                <div className="flex flex-col justify-between">
+                    <div className="text-sm mb-5">{description}</div>
 
-                <div className="text-sm">{techStack}</div>
+                    <div className="text-xs">{techStack}</div>
+                </div>
             </li>
         </div>
     )

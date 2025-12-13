@@ -116,7 +116,7 @@ body {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-.light-project-card {
+.project-card {
     /* when the theme is light, it will use the background and color of :root */
     border-radius: 0.5rem;
     padding: 1rem;
@@ -126,21 +126,7 @@ body {
     transition: transform 100ms ease-out;
 }
 
-.light-project-card:hover {
-    transform: translateY(-6px);
-}
-
-.dark-project-card {
-     /* when the theme is dark, it will use the background and color of .dark */
-    border-radius: 0.5rem;
-    padding: 1rem;
-    margin-top: 1rem;
-    background-color: var(--card);
-    color: var(--card-foreground);
-    transition: transform 100ms ease-out;
-}
-
-.dark-project-card:hover {
+.project-card:hover {
     transform: translateY(-6px);
 }
 
