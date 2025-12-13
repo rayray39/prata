@@ -13,8 +13,8 @@ export function Projects() {
                         projectLink: ""
                     }}
                     title="Chendol AI"
-                    description="some placeholder text"
-                    techStack="python"
+                    description="coming soon..."
+                    techStack="Next.js (TypeScript)"
                 />
 
                 <ProjectCard 
@@ -24,8 +24,8 @@ export function Projects() {
                         projectLink: ""
                     }}
                     title="HokkienMee"
-                    description="some placeholder text"
-                    techStack="java"
+                    description="AI-powered LinkedIn post generator, using Mistral AI's mistral-7B-instruct."
+                    techStack="Next.js (TypeScript), OpenRouter"
                 />
 
                 <ProjectCard 
@@ -35,8 +35,8 @@ export function Projects() {
                         projectLink: ""
                     }}
                     title="CharKwayTeow"
-                    description="some placeholder text"
-                    techStack="javascript"
+                    description="AI-powered git commit message generator - code smarter, commit better, using Deepseek-R1."
+                    techStack="React.js (TypeScript), Express.js, OpenRouter, Supabase"
                 />
             </ul>
         </div>
