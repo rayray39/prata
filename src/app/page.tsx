@@ -22,15 +22,15 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="w-xl md:w-3xl lg:w-4xl mb-6">
+            <div className="w-full max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-4xl px-2 mb-6">
                 <About />
             </div>
 
-            <div className="w-xl md:w-3xl lg:w-4xl mb-6">
+            <div className="w-full max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-4xl px-2 mb-6">
                 <Projects />
             </div>
 
-            <div className="w-xl md:w-3xl lg:w-4xl">
+            <div className="w-full max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-4xl px-2">
                 <Contact />
             </div>
         </div>
