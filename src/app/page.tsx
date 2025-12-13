@@ -23,15 +23,15 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="w-3xl mb-6">
+            <div className="w-4xl mb-6">
                 <About />
             </div>
 
-            <div className="w-3xl mb-6">
+            <div className="w-4xl mb-6">
                 <Projects />
             </div>
 
-            <div className="w-3xl">
+            <div className="w-4xl">
                 <Contact />
             </div>
         </div>
