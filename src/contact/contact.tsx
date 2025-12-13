@@ -1,7 +1,7 @@
 
 export function Contact() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col mb-4">
             <div className="text-xl md:text-2xl">Make a reservation</div>
 
             <div className="flex flex-col justify-center items-center">

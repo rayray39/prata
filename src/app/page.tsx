@@ -6,15 +6,14 @@ import { Projects } from "@/projects/projects";
 export default function Home() {
   return (
     <div>
-        <div className="flex flex-col justify-center items-center h-screen">
-            <div className="grid grid-cols-3 items-center">
-                <div></div>
-                <div className="text-4xl text-center">Prata Developer</div>
-                <div className="ml-2">
+        <div className="flex flex-col justify-center items-center min-h-screen overflow-y-auto">
+            <div className="flex justify-center items-center mt-4">
+                <div className="text-2xl md:text-4xl text-center">Prata Developer</div>
+                <div className="ml-1 md:ml-2">
                     <ModeToggle />
                 </div>
             </div>
-            <div className="flex items-center">
+            <div className="flex justify-center items-center mb-2">
                 <div>By Rayner</div>
                 <div>
                     <a href="https://www.linkedin.com/in/rayray39/">
@@ -23,15 +22,15 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="w-4xl mb-6">
+            <div className="w-xl md:w-3xl lg:w-4xl mb-6">
                 <About />
             </div>
 
-            <div className="w-4xl mb-6">
+            <div className="w-xl md:w-3xl lg:w-4xl mb-6">
                 <Projects />
             </div>
 
-            <div className="w-4xl">
+            <div className="w-xl md:w-3xl lg:w-4xl">
                 <Contact />
             </div>
         </div>
