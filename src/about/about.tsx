@@ -6,7 +6,7 @@ export function About() {
 
             <div className="text-justify">
                 I'm a junior software engineer currently working in the industry.
-                I enjoy working on fullstack web development, powering applications using AI solutions, extracting insightful information from unstructured data using AI, and creating cute little web applications just for fun!
+                I enjoy working on fullstack web development, powering applications using AI solutions, and creating cute little web applications just for fun!
             </div>
         </div>
     )
