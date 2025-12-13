@@ -3,7 +3,7 @@ import { ProjectCard } from "./project_card";
 export function Projects() {
     return (
         <div className="flex flex-col">
-            <div className="text-2xl">Menu</div>
+            <div className="text-xl md:text-2xl">Menu</div>
 
             <ul className="grid grid-cols-3 gap-2">
                 <ProjectCard 
