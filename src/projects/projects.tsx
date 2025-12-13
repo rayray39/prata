@@ -5,7 +5,7 @@ export function Projects() {
         <div className="flex flex-col">
             <div className="text-xl md:text-2xl">Menu</div>
 
-            <ul className="grid grid-cols-3 gap-2">
+            <ul className="grid grid-cols-1 md:grid-cols-3 gap-2">
                 <ProjectCard 
                     header={{
                         emoji: "🍨",
