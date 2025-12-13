@@ -9,7 +9,7 @@ export function Contact() {
                     <img className="w-5 h-5 mr-2" src="linkedin_blue.png" alt="linkedin" />
                     <a href="https://www.linkedin.com/in/rayray39/">rayray39</a>
                 </div>
-                <div className="flex items-center mt-2">
+                <div className="flex items-center">
                     <img className="w-5 h-5 mr-2" src="github_new.png" alt="github" />
                     <a href="https://www.github.com/rayray39">rayray39</a>
                 </div>
