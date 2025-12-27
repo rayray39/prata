@@ -11,7 +11,7 @@ export function TechSection({
         <div className="techstack-section">
             <li className="list-none">
                 <div className="flex flex-col">
-                    <div>{header}</div>
+                    <div className="font-bold">{header}</div>
 
                     {
                         listOfTechCards.map((item, index) => (
