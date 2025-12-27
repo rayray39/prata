@@ -2,6 +2,7 @@ import { About } from "@/about/about";
 import { ModeToggle } from "./modeToggle";
 import { Contact } from "@/contact/contact";
 import { Projects } from "@/projects/projects";
+import { TechStack } from "@/tech_stack/tech_stack";
 
 export default function Home() {
   return (
@@ -28,6 +29,10 @@ export default function Home() {
 
             <div className="w-full max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-4xl px-2 mb-6">
                 <Projects />
+            </div>
+
+            <div className="w-full max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-4xl px-2 mb-6">
+                <TechStack />
             </div>
 
             <div className="w-full max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-4xl px-2">

@@ -50,7 +50,6 @@ body {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
-  
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(1 0 0);
@@ -129,6 +128,23 @@ body {
 .project-card:hover {
     transform: translateY(-6px);
 }
+
+.techstack-section {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: var(--card);
+    color: var(--card-foreground);
+}
+
+.techcard {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #4B5563;
+    color: white
+}
+
 
 @layer base {
   * {
