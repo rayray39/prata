@@ -1,5 +1,7 @@
 
 export function Contact() {
+    // contact section
+
     return (
         <div className="flex flex-col mb-4">
             <div className="text-xl md:text-2xl">Make a reservation</div>

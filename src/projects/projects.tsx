@@ -1,6 +1,8 @@
 import { ProjectCard } from "./project_card";
 
 export function Projects() {
+    // projects showcase section
+
     return (
         <div className="flex flex-col">
             <div className="text-xl md:text-2xl">Menu</div>

@@ -4,16 +4,16 @@ import "../app/globals.css";
 
 interface ProjectHeader {
     emoji:string,
-    githubLink:string,
-    projectLink:string
-}
+    githubLink:string,  // link to github repo
+    projectLink:string  // link to deployed site, if any
+}   // main title header of project card
 
 interface ProjectDetails {
     header:ProjectHeader,
     title:string,
     description:string,
     techStack:string
-}
+}   // body of project card
 
 export function ProjectCard({
     header,

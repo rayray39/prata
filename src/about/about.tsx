@@ -1,5 +1,7 @@
 
 export function About() {
+    // about section
+
     return (
         <div className="flex flex-col">
             <div className="text-xl md:text-2xl">About the chef</div>
