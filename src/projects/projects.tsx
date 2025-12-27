@@ -22,8 +22,8 @@ export function Projects() {
                 <ProjectCard 
                     header={{
                         emoji: "🍜",
-                        githubLink: "",
-                        projectLink: ""
+                        githubLink: "https://github.com/rayray39/hokkien-mee",
+                        projectLink: "https://hokkienmee.vercel.app/"
                     }}
                     title="HokkienMee"
                     description="AI-powered LinkedIn post generator, using Mistral AI's mistral-7B-instruct."
@@ -33,8 +33,8 @@ export function Projects() {
                 <ProjectCard 
                     header={{
                         emoji: "🥘",
-                        githubLink: "",
-                        projectLink: ""
+                        githubLink: "https://github.com/rayray39/char-kway-teow",
+                        projectLink: "https://charkwayteow.vercel.app/"
                     }}
                     title="CharKwayTeow"
                     description="AI-powered git commit message generator - code smarter, commit better, using Deepseek-R1."

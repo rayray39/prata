@@ -28,14 +28,14 @@ export function ProjectCard({
             <li className="list-none">
                 <div className="flex justify-between items-center">
                     <div className="text-lg">{header.emoji}</div>
-                    <div className="grid grid-cols-2 gap-1 items-center">
+                    <div className="grid grid-cols-2 gap-2 items-center">
                         <div>
                             <a href={header.githubLink}>
-                                <img className="w-5 h-5" src="github_new.png" alt="github"/>
+                                <img className="w-5.5 h-5.5" src="github_new.png" alt="github"/>
                             </a>
                         </div>
                         <div>
-                            <a href={header.projectLink}>
+                            <a href={header.projectLink} className="text-lg">
                                 📌
                             </a>
                         </div>
