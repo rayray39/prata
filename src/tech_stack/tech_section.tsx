@@ -1,7 +1,8 @@
 import { TechCard } from "./tech_card"
 
 interface Card {
-    name:string
+    name:string,
+    iconName:string
 }
 
 export function TechSection({
@@ -15,7 +16,7 @@ export function TechSection({
 
                     {
                         listOfTechCards.map((item, index) => (
-                            <TechCard key={index} name={item.name}/>
+                            <TechCard key={index} name={item.name} iconName={item.iconName}/>
                         ))
                     }
                 </div>
