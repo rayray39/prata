@@ -26,7 +26,7 @@ export function Projects() {
                         projectLink: "https://hokkienmee.vercel.app/"
                     }}
                     title="HokkienMee"
-                    description="AI-powered LinkedIn post generator, using Mistral AI's mistral-7B-instruct."
+                    description="AI-powered LinkedIn post generator, powered by Mistral AI's mistral-7B-instruct."
                     techStack="Next.js (TypeScript), OpenRouter"
                 />
 
@@ -37,7 +37,7 @@ export function Projects() {
                         projectLink: "https://charkwayteow.vercel.app/"
                     }}
                     title="CharKwayTeow"
-                    description="AI-powered git commit message generator - code smarter, commit better, using Deepseek-R1."
+                    description="AI-powered git commit message generator - code smarter, commit better, powered by Deepseek-R1."
                     techStack="React.js (TypeScript), Express.js, OpenRouter, Supabase"
                 />
             </ul>
