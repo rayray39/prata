@@ -7,8 +7,13 @@ export function About() {
             <div className="text-xl md:text-2xl">About the chef</div>
 
             <div className="text-justify">
-                I'm a junior software engineer currently working in the industry.
-                I enjoy working on fullstack web development, powering applications using AI solutions, and creating cute little web applications just for fun!
+                <p>
+                    I'm currently a Software Engineer at DSTA, where I help build information analysis systems using Natural Language Processing and AI tools.
+                </p>
+                <br />
+                <p>
+                    I enjoy working on fullstack web development, powering applications using AI solutions, and creating cute little web applications just for fun!
+                </p>
             </div>
         </div>
     )
