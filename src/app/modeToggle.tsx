@@ -2,11 +2,16 @@
 import { Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
+import { useEffect } from "react";
 
 export function ModeToggle() {
     // returns a button to toggle between dark (default) and light modes
 
-    const {theme, setTheme} = useTheme();
+    const {theme, resolvedTheme, setTheme} = useTheme();
+
+    useEffect(() => {
+        console.log(`current theme is ${resolvedTheme}`)
+    },[resolvedTheme])
 
     return (
         <div>
