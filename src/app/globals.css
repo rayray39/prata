@@ -145,6 +145,21 @@ body {
     color: white
 }
 
+.about-description {
+    background-color: var(--card);
+    color: var(--card-foreground);
+}
+
+.contact-section {
+    background-color: var(--card);
+    color: var(--card-foreground);
+}
+
+.techstack-description {
+    background-color: var(--card);
+    color: var(--card-foreground);
+}
+
 
 @layer base {
   * {

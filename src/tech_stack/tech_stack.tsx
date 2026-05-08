@@ -25,9 +25,9 @@ export function TechStack() {
 
     return (
         <div>
-            <div className="text-xl md:text-2xl">Kitchen Utensils</div>
+            <div className="text-xl md:text-2xl font-semibold mb-4">Kitchen Utensils</div>
 
-            <div className="grid grid-cols-1 md:gap-y-8 sm:gap-y-4">
+            <div className="techstack-description grid grid-cols-1 md:gap-y-8 sm:gap-y-4 rounded-lg border border-border bg-card p-6 shadow-sm">
                 <div className="flex flex-col items-center">
                     <div>Fullstack</div>
                     <p> 
